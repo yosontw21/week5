@@ -1,0 +1,25 @@
+.table thead th {
+  border-bottom: 1px solid $dark;
+}
+
+.table tbody tr{
+  border-bottom: 1px solid #CDDDCD;
+}
+
+.table tbody tr:hover {
+    background: $primary-light;
+}
+
+.page-link {
+  padding: 7px 14px;
+  border: 1px solid $primary;
+}
+
+.page-link:hover {
+  color: #ffffff;
+  background: $primary;
+}
+
+.page-icons {
+  padding: 3px 6px;
+}

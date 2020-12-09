@@ -1,0 +1,46 @@
+html, body {
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+}
+
+img {
+  display:block;
+  max-width:100%;
+  height:auto; 
+}
+
+ul {
+  list-style: none;
+}
+
+code {
+  color: $primary;
+  background: $primary-light;
+  padding: 2px 4px;
+}
+
+a {
+  color: $dark;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.font {
+  &-xs {
+    font-size: 12px;
+  }
+  &-sm {
+    font-size: 14px;
+  }
+  &-md {
+    font-size: 16px;
+  }
+  &-lg {
+    font-size: 20px;
+  }
+  &-xl {
+    font-size: 24px;
+  }
+}
